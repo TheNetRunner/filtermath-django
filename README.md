@@ -23,7 +23,7 @@ Then at the top of your template you can load it like this:
 # How Django filters work
 *disclaimer*
 Below is just a quick summary of how they work as I understand it. 
-More and better info can be found [here](https://docs.djangoproject.com/en/2.1/howto/custom-template-tags/)
+More and better info can be found [here](https://docs.djangoproject.com/en/2.1/howto/custom-template-tags/) which is a link to the official documentation
 
 ## What a custom django template filter looks like
 

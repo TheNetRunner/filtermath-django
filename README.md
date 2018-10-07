@@ -2,7 +2,7 @@
 A set of math filters for django's template library
 
 ## What is filtermath-django
-This is a simple math filter tool I made for django templates at 3am whilest working on a project.
+This is a simple collection of math filters for django-templates I created at 3am.
 
 ## How to use it
 You place the filtermath.py file in your application structure like this:

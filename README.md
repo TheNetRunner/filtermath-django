@@ -58,7 +58,7 @@ return
 ## Examples of my filters
 
 I have lists a few examples below of my filters below:
-
+```python
 {% with number_one=12 number_two=2 %}
     {{ number_one|multiply:number_two %}
 {% endwith %}
@@ -70,3 +70,4 @@ I have lists a few examples below of my filters below:
 {% for number in mynumbers %}
     {{ number|div:2|round:2 }}
 {% endfor %}
+```

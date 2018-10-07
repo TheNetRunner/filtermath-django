@@ -28,6 +28,8 @@ More and better info can be found [here](https://docs.djangoproject.com/en/2.1/h
 ## What a custom django template filter looks like
 
 ```python
+from django import template
+
 register = template.Library()
 
 @register.filter(name='filtername')
@@ -39,6 +41,9 @@ return # whatever you like
 
 ```python
 # first import the django template library:
+from django import template
+
+# Then we create a simple reference to it with a variable
 register = template.Library()
 ```
 ```python

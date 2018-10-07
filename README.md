@@ -49,7 +49,8 @@ register = template.Library()
 ```python
 # now we create a function as normal
 def function(value, arg) 
-# the value is that comes before the | in the filter and the arg is what comes after
+# the value is that which comes before the | in the filter and the arg is what comes after
+# i.e value|filter:arg
 return 
 # here is where you return the magic of your function i.e value * arg or round(value, arg)
 ```
